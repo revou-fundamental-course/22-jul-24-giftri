@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #f0f0f0;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+section {
+    background-color: #fff;
+    padding: 2em;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.website-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.website-title h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.website-title p {
+    font-size: 18px;
+    color: #666;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    height: 500px; 
+    background-size: cover;
+    background-position: center;
+}
+
+.slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.slide.active {
+    display: block;
+}
+
+.banner-image {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.split-screen {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-bottom: 20px;
+}
+
+#package {
+    width: 60%;
+    padding: 1em;
+    background-color: #F7F7F7; /* tambahkan background abu-abu muda */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-us {
+    width: 50%;
+    padding: 2em;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.package-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.package {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.package h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#contact-us {
+    width: 40%;
+    padding: 1em;
+    background-color: #F7F7F7; /* tambahkan background abu-abu muda */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* changed to align-items: flex-start to left-align the text */
+}
+
+label {
+    margin-bottom: 10px;
+    text-align: left; /* added text-align: left to left-align the label text */
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    height: 30px; /* reduced height to 30px */
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 30px; /* reduced height to 30px */
+    background-color: #344734;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="text"], input[type="email"] {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    background-color: #344734;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #344734;
+}
+
+#call-to-action {
+    text-align: center;
+    padding: 2em;
+    background-color: #f0f0f0;
+    margin-top: 20px;
+}
+.team-list {
+    margin-top: 40px;
+  }
+  
+  .team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .team-member {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .team-photo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .team-member h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .team-member p {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .logo {
+    width: 50px;
+    height: 50px; 
+    margin-right: 20px;
+}
